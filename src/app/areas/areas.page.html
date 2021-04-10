@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title ><ion-icon
+      name="chevron-back-outline"
+      routerLink="/departments"
+    ></ion-icon>Areas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid >
+    <ion-row class="h-100">
+      <ion-col size-lg="2" size-sm="6" size-md="4" size-xl="2" size-xs="12">
+        <ion-card class="ion-text-center ion-padding" >
+          <div [routerLink]="['/inbox']">
+          <ion-card-header>
+            <ion-card-title color="medium">
+              Activos
+            </ion-card-title>
+          </ion-card-header>
+        </div>
+        </ion-card>
+      </ion-col>
+      <ion-col size-lg="2" size-sm="6" size-md="4" size-xl="2" size-xs="12">
+        <ion-card class="ion-text-center ion-padding" >
+          <div [routerLink]="['/inbox']">
+          <ion-card-header>
+            <ion-card-title color="medium">
+              Pasivos
+            </ion-card-title>
+          </ion-card-header>
+        </div>
+        </ion-card>
+      </ion-col>
+      <ion-col size-lg="2" size-sm="6" size-md="4" size-xl="2" size-xs="12">
+        <ion-card class="ion-text-center ion-padding" >
+          <div [routerLink]="['/inbox']">
+          <ion-card-header>
+            <ion-card-title color="medium">
+              Patrimonio
+            </ion-card-title>
+          </ion-card-header>
+        </div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

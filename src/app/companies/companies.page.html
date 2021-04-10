@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">Empresas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-grid >
+    <ion-row class="h-100">
+      <ion-col size-lg="2" size-sm="6" size-md="4" size-xl="2" size-xs="12">
+        <ion-card class="ion-text-center ion-padding" >
+          <div [routerLink]="['/departments']">
+          <ion-card-header>
+            <img src="http://colcable.co/wp-content/uploads/2019/11/Colcable-logo.png"   />
+            <ion-card-title color="medium">
+              Colcable
+            </ion-card-title>
+          </ion-card-header>
+        </div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
